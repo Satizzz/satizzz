@@ -9,8 +9,8 @@
 # Licence:     <your licence>
 #-------------------------------------------------------------------------------
 
-def main(n):
-    num=n
+def main():
+    num=int(raw_input("Enter the number:"))
     if(num<0):
         print("The number is negative")
     elif(num==0):
@@ -19,4 +19,4 @@ def main(n):
         print("The number is Positive")
 
 if __name__ == '__main__':
-    main(-20)
+    main()
